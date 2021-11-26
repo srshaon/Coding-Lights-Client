@@ -1,0 +1,21 @@
+.all-products-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+.all-products-section-header{
+    color: white;
+    background-color: black;
+}
+
+@media (max-width:700px) {
+    .all-products-section{
+        padding: 0 ;
+        display: grid;
+            grid-template-columns: 1fr;
+}
+.all-products-div{
+    padding: 0 10px;
+}
+}

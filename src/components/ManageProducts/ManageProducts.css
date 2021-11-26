@@ -1,0 +1,16 @@
+.manage-all-products-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.delete-service-btn:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+@media (max-width:700px) {
+    .manage-all-products-section{
+        display: grid;
+            grid-template-columns: 1fr;
+}
+}

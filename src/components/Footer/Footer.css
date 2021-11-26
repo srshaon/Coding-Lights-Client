@@ -1,0 +1,57 @@
+
+
+.footer-section-container{
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(133,130,130,1) 30%, rgba(133,130,130,1) 70%, rgba(0,0,0,1) 100%);
+  /* background-color: #c7ebe9; */
+    display: flex;
+    
+    justify-content: center;
+    
+}
+.insta{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.email-box {
+    font-weight: 700;
+    border: 2px solid black;
+    background: rgba(238, 238, 230, 0.904);
+    padding-right: 10px;
+    border-radius: 5px;
+  }
+.subscribe-btn{
+  
+    font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.589);
+    border-radius: 5px;
+    width: 75%;
+}
+body{
+  overflow-x: hidden;
+}
+
+@media (max-width:700px) {
+  .footer-container-row{
+      display: grid;
+          grid-template-rows: 1fr;;
+          margin: 0;
+          padding: 0;
+}
+.footer-mid-column{
+  border: 2px solid red;
+  width: 100%;
+  margin: 10px 0;
+}
+.footer-section-container{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+  
+}
+}

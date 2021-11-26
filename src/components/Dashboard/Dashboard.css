@@ -1,0 +1,17 @@
+.dashboard-details-div{
+display: grid;
+grid-template-columns: 30% 70%;
+}
+.dashboard-second-container{
+    background-color: #a6a8a8;
+}
+
+@media (max-width:700px) {
+    .dashboard-details-div{
+        display: flex;
+        flex-direction: column;
+        /* display: grid;
+        grid-template-rows: repeat(2,1fr); */
+    }
+    
+}

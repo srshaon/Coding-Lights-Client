@@ -1,0 +1,22 @@
+.review-container{
+    
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    background-color: #2b2c2cd7;
+}
+.review-section-header{
+    color: whitesmoke;
+    
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(133,130,130,1) 30%, rgba(133,130,130,1) 70%, rgba(0,0,0,1) 100%);
+}
+@media (max-width:700px) {
+    .review-container{
+        padding: 0 ;
+        display: grid;
+            grid-template-columns: 1fr;
+}
+}
+  
+  

@@ -1,0 +1,46 @@
+.login-section{
+    background-color: #a6a8a8;
+}
+
+.login-input{
+    width: 25%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.603);
+    font-weight: 700;
+}
+.login-submit-input, .google-sign-btn{
+    width: 25%;
+    border-radius: 8px;
+    background-color: rgb(248, 211, 142);
+    font-weight: 700;
+}
+
+
+.or-span{
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: rgba(238, 233, 226, 0.356);
+}
+
+.login-reg-div{
+    background-color: rgba(241, 213, 171, 0.562);
+}
+.login-section{
+    height: 65vh;
+}
+
+@media (max-width:700px) {
+    .google-sign-btn{
+       width: 100%;
+        
+  }
+    .login-form-div input{
+        width: 100%;
+        
+  }
+    .login-input{
+        width: 100%;
+        padding-top: 2px;
+        
+    }
+}

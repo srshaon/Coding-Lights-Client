@@ -1,0 +1,12 @@
+.review-inner-container{
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.review-section-image img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,66 @@
+/* .header-container{
+    background-image: linear-gradient(to left, #050505, #2d2d2e, #535356, #7c7d81, #a8aaaf, #a8a9af, #a9a9ae, #a9a8ae, #7d7b7f, #535153, #2c2a2b, #000000);
+} */
+
+/* .header-container{
+    background-image: linear-gradient(to right, #000000, #252525, #444444, #676767, #8b8b8b, #8b8b8b, #8b8b8b, #8b8b8b, #676767, #444444, #252525, #000000);
+} */
+
+.header-container{
+    /* background: rgb(0,0,0); */
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(133,130,130,1) 30%, rgba(133,130,130,1) 70%, rgba(0,0,0,1) 100%);
+}
+/* .header-container{
+    background-image: linear-gradient(to bottom, #050505, #2d2d2e, #535356, #7c7d81, #a8aaaf, #a8a9af, #a9a9ae, #a9a8ae, #7d7b7f, #535153, #2c2a2b, #000000);
+} */
+.nav-btn{
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 0 2px;
+    
+}
+
+.span-user-name{
+    padding: 0 2px;
+    border: 2px solid rgba(41, 41, 41, 0.877);
+    
+    
+}
+.span-header-name{
+    padding-top: 10px;
+}
+
+.header-image{
+    margin-left: 10px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+
+}
+.header-default-image{
+    width: 30%;
+    margin-left: -80px;
+}
+.boxShadow{
+    margin-right: 3px;
+    box-shadow: 1px 1px 5px 1px;
+}
+@media (max-width:700px) {
+    .span-user-name{
+        padding: 2px ;
+        
+    }
+    .header-image{
+        margin-left: 80px;
+        width: 20%;
+        
+    
+    }
+    .span-header-name{
+        padding-top: 0px;
+    }
+    .header-default-image{
+        width: 20%;
+        margin-left: -10px;
+    }
+}

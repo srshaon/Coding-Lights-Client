@@ -1,0 +1,42 @@
+.new-product-form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.white-text-black-background{
+    background-color: black;
+    color: white;
+}
+ .new-product-form input {
+     background-color: rgba(255, 255, 255, 0.774);
+    display: block;
+    margin: 10px;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+ .new-product-form textarea {
+    background-color: rgba(255, 255, 255, 0.774);
+    display: block;
+    margin: 10px;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.add-new-product-div{
+    align-items: center;
+}
+.submit-input:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+@media (max-width:700px) {
+     .new-product-form input{
+        width: 100%;
+}
+ .new-product-form textarea{
+    width: 100%;
+}
+}

@@ -1,0 +1,80 @@
+
+
+/* new css */
+.product-details-container{
+    display: grid;
+    
+}
+.product-details-upper-section img{
+    height: 90%;
+    width: 40%;
+    
+}
+.product-details-lower-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.product-details-section{
+    display: grid;
+    grid-template-rows: 8% 92%;
+}
+.order-details-section{
+    display: grid;
+    grid-template-rows: 8% 92%;
+}
+.details-field{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border-top: 2px solid #ffffff;
+}
+.shipping-form{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.shipping-form input, textarea {
+    background-color: rgba(241, 241, 241, 0.945);
+    display: block;
+    padding: 5px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+
+@media (max-width:700px) {
+    
+    .product-details-container{
+        
+        
+        display: grid;
+            grid-template-columns: 1fr;
+}
+.product-details-lower-section{
+    
+    display: grid;
+            grid-template-columns: 1fr;
+}
+
+.product-details-section{
+    display: grid;
+    grid-template-rows: 5%;
+}
+.order-details-section{
+    display: grid;
+    grid-template-rows: 10%;
+    padding-bottom: 5px;
+}
+
+.details-field{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.product-details-upper-section img{
+    height: 90%;
+    width: 100%;
+    
+}
+}
+

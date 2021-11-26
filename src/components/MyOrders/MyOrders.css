@@ -1,0 +1,34 @@
+.my-order-map-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    
+}
+.single-my-order-container{
+    background-color: #E1F4F3;
+    display: grid;
+    grid-template-rows: 95% 5%;
+    overflow: hidden;
+    border: 2px solid white;
+    
+}
+
+.delete-btn{
+    
+    background-color: rgba(247, 247, 58, 0.459);
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+.single-my-order-div:hover{
+    transform: scale(1.08);
+    
+    transition: transform 4s ease-in-out;
+}
+
+@media (max-width:700px) {
+    .my-order-map-container{
+        display: grid;
+            grid-template-columns: 1fr;
+}
+}
