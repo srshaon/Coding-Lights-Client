@@ -8,7 +8,7 @@ const AddNewProducts = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         // console.log(data)
-        axios.post('https://damp-citadel-82174.herokuapp.com/products', data)
+        axios.post('https://coding-lights.onrender.com/products', data)
             .then(res => {
                 // console.log(res)
                 if (res.data.insertedId) {

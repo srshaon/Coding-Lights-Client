@@ -12,7 +12,7 @@ const Review = () => {
 
         console.log(data);
 
-        fetch('https://damp-citadel-82174.herokuapp.com/reviews', {
+        fetch('https://coding-lights.onrender.com/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -12,7 +12,7 @@ const MyOrders = () => {
     const [myOrders, setMyOrders] = useState([]);
     const [noOrderValue, setNoOrderValue] = useState(0)
     useEffect(() => {
-        fetch('https://damp-citadel-82174.herokuapp.com/filtered', {
+        fetch('https://coding-lights.onrender.com/filtered', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -38,7 +38,7 @@ const MyOrders = () => {
         // console.log(id);
         const proceed = window.confirm('are you sure?');
         if (proceed) {
-            const url = `https://damp-citadel-82174.herokuapp.com/orders/${id}`;
+            const url = `https://coding-lights.onrender.com/orders/${id}`;
             fetch(url, {
                 method: 'delete'
             })

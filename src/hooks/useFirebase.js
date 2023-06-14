@@ -22,7 +22,7 @@ const useFirebase = () => {
 
 
     useEffect(() => {
-        fetch(`https://damp-citadel-82174.herokuapp.com/users/${user.email}`)
+        fetch(`https://coding-lights.onrender.com/users/${user.email}`)
             .then(res => res.json())
             .then(data => {
                 // console.log(data);
@@ -139,7 +139,7 @@ const useFirebase = () => {
     });
     const saveUser = (email, displayName, method) => {
         const user = { email, displayName };
-        fetch('https://damp-citadel-82174.herokuapp.com/users', {
+        fetch('https://coding-lights.onrender.com/users', {
             method: method,
             headers: {
                 'content-type': 'application/json'

@@ -14,7 +14,7 @@ const BookNow = () => {
     const url = "/success"
     const [product, setProduct] = useState({});
     useEffect(() => {
-        fetch(`https://damp-citadel-82174.herokuapp.com/products/${_id}`)
+        fetch(`https://coding-lights.onrender.com/products/${_id}`)
             .then(res => res.json())
             .then(data => {
                 // console.log(data);
@@ -27,7 +27,7 @@ const BookNow = () => {
         data.order = orderedproduct;
         // console.log(data);
 
-        fetch('https://damp-citadel-82174.herokuapp.com/orders', {
+        fetch('https://coding-lights.onrender.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -8,7 +8,7 @@ const AllReviews = () => {
 
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-        fetch('https://damp-citadel-82174.herokuapp.com/reviews')
+        fetch('https://coding-lights.onrender.com/reviews')
             .then(res => res.json())
             .then(data => {
                 // console.log(data);

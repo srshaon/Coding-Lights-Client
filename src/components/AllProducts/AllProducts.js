@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const AllProducts = () => {
     const [allproducts, setAllProducts] = useState([]);
     useEffect(() => {
-        fetch('https://damp-citadel-82174.herokuapp.com/products')
+        fetch('https://coding-lights.onrender.com/products')
             .then(res => res.json())
             .then(data => setAllProducts(data))
     }, [])

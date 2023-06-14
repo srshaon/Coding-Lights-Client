@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react';
 const ManageProducts = () => {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch('https://damp-citadel-82174.herokuapp.com/products')
+        fetch('https://coding-lights.onrender.com/products')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [])
@@ -14,7 +14,7 @@ const ManageProducts = () => {
         // console.log(id);
         const proceed = window.confirm('are you sure?');
         if (proceed) {
-            const url = `https://damp-citadel-82174.herokuapp.com/products/${id}`;
+            const url = `https://coding-lights.onrender.com/products/${id}`;
             fetch(url, {
                 method: 'delete'
             })

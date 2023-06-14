@@ -23,27 +23,27 @@ const AboutUs = () => {
                     </div>
                     <div className="test m-0 p-0 ">
 
-                        <div class="night">
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
-                            <div class="shooting_star"></div>
+                        <div className="night">
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
+                            <div className="shooting_star"></div>
                         </div>
 
                     </div>

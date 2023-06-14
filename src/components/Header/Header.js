@@ -38,13 +38,13 @@ const Header = () => {
                             <ul className="navbar-nav  me-auto mb-2 mb-lg-0 ">
 
                                 <li className="nav-item boxShadow">
-                                    <NavLink className="navlinks nav-link active text-white" aria-current="page" to="/home"><i class="fas fa-home"> Home</i> </NavLink>
+                                    <NavLink className="navlinks nav-link active text-white" aria-current="page" to="/home"><i className="fas fa-home"> Home</i> </NavLink>
 
                                 </li>
 
 
                                 <li className="nav-item  boxShadow">
-                                    <NavLink className="navlinks nav-link active text-white" aria-current="page" to="/allproducts"><i class="fas fa-angle-double-right"> Explore</i></NavLink>
+                                    <NavLink className="navlinks nav-link active text-white" aria-current="page" to="/allproducts"><i className="fas fa-angle-double-right"> Explore</i></NavLink>
 
                                 </li>
 
@@ -56,7 +56,7 @@ const Header = () => {
                                     <>
                                         <li className="nav-item boxShadow">
                                             <NavLink className="navlinks text-white nav-link active " aria-current="page" to="/dashboard">
-                                                <i class="fas fa-clipboard-list"> Dashboard</i></NavLink>
+                                                <i className="fas fa-clipboard-list"> Dashboard</i></NavLink>
                                         </li>
 
 
